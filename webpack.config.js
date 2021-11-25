@@ -6,6 +6,7 @@ module.exports = (env, argv) => {
     return {
         entry: {
             app: "./assets/app.js",
+            sw: "./assets/sw.js",
         },
 
         output: {
